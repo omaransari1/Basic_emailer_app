@@ -7,6 +7,10 @@ end
 
 #Gem for storing environment variables
 gem 'figaro'
+
+#Mailgun gem in case I care to use mailgun's API to send emails
+gem 'mailgun-ruby', '~>1.0.2', require: 'mailgun'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.3'
 # Use sqlite3 as the database for Active Record
